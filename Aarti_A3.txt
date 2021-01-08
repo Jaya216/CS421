@@ -1,0 +1,32 @@
+#take the number 1 from the user
+number_str = input("Enter the number 1:")
+
+#cast into an integer
+number_1 = int(number_str)
+
+#take the number_2 from the user
+number_str = input("Enter the number 2:")
+
+#cast into an integer
+number_2 = int(number_str)
+
+#add the numbers
+add_x = number_1 + number_2
+
+#print the addition
+print("Sum of number 1 and number 2 :" , add_x)
+
+#subtract the numbers
+sub_x = number_1 - number_2
+
+#print the subtraction
+print("Sub of number 1 and number 2 :" , sub_x)
+
+#multiply the numbers
+multiply_x = number_1 * number_2
+
+#print the multiplication
+print("Multiplication of number 1 and number 2 :" , multiply_x)
+
+#divide the numbers
+div_x = number_1 / number_2
